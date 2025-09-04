@@ -1,11 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+## Name :SANJAY T
 
+## Roll no: 212222110039
 
-
-
+## Date of experiment :29.08.2025
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -78,25 +76,127 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+MOV AL, 53H;
 
+MOV BL, 24H;
 
+ADD AL,BL;
+
+HLT
+```
 
 ## Output  
- 
+<img width="1145" height="668" alt="image" src="https://github.com/user-attachments/assets/0138943b-6ead-4624-86ef-1811178edf08" />
+
+
 ## Subtraction   of 8 bit numbers  ALP 
+ ``` MOV AL, 53H;
  
-## Output  
-## Multiplication alp 
+ MOV BL,24H;
+ 
+ SUB AL,BL;
+ 
+ HLT
+ ```
+## Output
+<img width="1373" height="649" alt="image" src="https://github.com/user-attachments/assets/82ce61cf-664e-47de-b6e4-57fdd7b11f6d" />
+## multiplication of 8 bit numbers ALP
+``` MOV AL, 53H;
+
+MOV BL, 24H;
+
+MUL BL;
+
+HLT
+```
  ## Output  
+<img width="1227" height="599" alt="image" src="https://github.com/user-attachments/assets/ea03c486-027c-43c2-a8e6-6a7a4679168c" />
+
 
 
 ## Division alp 
+``` MOV AL, 53H;
 
+MOV BL, 24H;
+
+DIV BL;
+
+HLT
+```
 ## Output  
+<img width="1237" height="655" alt="image" src="https://github.com/user-attachments/assets/55581a64-fdd3-4bb0-a800-5455ede69cf2" />
+
+ 
+## AND
+```MOV AL, 53H;
+
+MOV BL, 24H;
+
+AND AL,BL;
+
+HLT
+```
+## Output 
+<img width="1222" height="620" alt="image" src="https://github.com/user-attachments/assets/6136b03d-6c18-4ac3-a531-38e805c35b4c" />
+
+
+## OR
+``` MOV AL, 53H;
+
+MOV BL, 24H;
+
+OR AL, BL;
+
+HLT
+```
+## Output
+<img width="1318" height="571" alt="image" src="https://github.com/user-attachments/assets/02ee1ffc-d315-4e32-a203-efacb05f113b" />
+
+
+## NOT
+``` MOV AL, 53H;
+
+MOV BL, 24H;
+
+NOT AL;
+
+HLT
+```
+## OUTPUT
+
+<img width="1230" height="645" alt="image" src="https://github.com/user-attachments/assets/1822dc7c-0bcd-40e2-8f3a-643f10918acc" />
+
+## EX-OR
+```
+MOV AL, 53H;
+
+MOV BL, 24H;
+
+XOR AL, BL;
+
+HLT
+```
+## OUTPUT
+<img width="1182" height="654" alt="image" src="https://github.com/user-attachments/assets/c054eeda-6fc9-4408-95b0-192685325756" />
+
+
+## NAND 
+```
+MOV AL,53H
+MOV BL,24H
+AND AL,BL
+NOT AL
+
+```
+
+
+##  OUTPUT
+<img width="1163" height="598" alt="image" src="https://github.com/user-attachments/assets/4e0fbe21-c3ee-4b7c-a7cf-c93da43a8c5a" />
 
 
 ## Result :
- 
+ Thus ,ALP for fundamental arithmetic and logical operations are executed successfully.
 
 
 
