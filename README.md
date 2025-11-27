@@ -89,7 +89,8 @@ MOV [3007H],CL
 HLT
 ```
 ## Output :  
-![IMG-20250829-WA0006](https://github.com/user-attachments/assets/c86a5d8d-7107-4ec9-83ea-7fba0f830660)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d6f25e19-2b93-46e5-9079-ae82cdbcaa0d" />
+
 
 ## Subtraction of 8 bit numbers  ALP : 
 ```
